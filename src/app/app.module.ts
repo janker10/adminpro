@@ -12,17 +12,20 @@ import { SharedModule } from './shared/shared.module';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NopagefoundComponent
+    
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
+    SharedModule
       
   ],
   
